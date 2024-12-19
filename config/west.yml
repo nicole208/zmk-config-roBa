@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson
+      url-base: url-base: https://github.com/zmkfirmware
     - name: nicole208
       url-base: https://github.com/nicole208
   projects:
@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: zmk-pmw3610-driver
+    - name: main
       remote: nicole208
       revision: main
   self:
