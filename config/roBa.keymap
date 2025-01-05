@@ -79,7 +79,7 @@
 
         FUNCTION {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LG(E)  &kp LC(R)  &kp LC(T)                         &kp LC(Y)      &kp LA(LEFT)  &kp F3             &kp LA(RIGHT)  &kp MINUS
+&kp LC(Q)  &kp LC(W)  &kp LG(E)  &kp LC(R)  &kp LC(T)                         &kp LC(Y)      &kp LA(LEFT)  &mkp MB5           &kp LA(RIGHT)  &kp MINUS
 &kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &kp HOME    &trans     &kp LC(H)      &mkp MB1      &mkp MB4           &mkp MB2       &kp EQUAL
 &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp END     &kp GRAVE  &kp LC(N)      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &trans         &kp LC(SLASH)
 &trans     &trans     &trans     &trans     &trans     &trans      &trans     &kp LG(SPACE)                                                  &to 7
@@ -108,10 +108,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB4  &mkp MB2  &mkp MB5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans
             >;
         };
 
