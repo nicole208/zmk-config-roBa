@@ -68,30 +68,21 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R             &kp T                                             &kp Y        &kp U  &lt 6 I    &kp O    &kp P
+&kp Q             &kp W         &kp E             &kp R             &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D             &kp F             &kp G        &kp LS(LG(S))         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &lt 7 TAB             &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 LANG_HANJA  &lt 3 SPACE  &lt 4 LANG_HANGEUL    &kp BACKSPACE  &lt 3 ENTER                             &kp DEL
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &lt 8 TAB             &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANG_HANJA  &lt 2 SPACE  &lt 3 LANG_HANGEUL    &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
-        Onishi_ver1 {
-            bindings = <
-&kp Q   &kp L   &kp U   &kp COMMA  &kp DOT                                &kp F   &kp W  &kp R  &kp Y  &kp P
-&kp E   &kp I   &kp A   &kp O      &kp MINUS  &kp LS(LG(S))    &kp EQUAL  &kp K   &kp T  &kp N  &kp S  &kp H
-&kp Z   &kp X   &kp C   &kp V      &kp SEMI   &kp BSLH         &kp FSLH   &kp G   &kp D  &kp M  &kp J  &kp B
-&trans  &trans  &trans  &trans     &trans     &trans           &trans     &trans                       &to 0
-            >;
-        };
-
         FUNCTION {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LG(E)  &kp LC(R)  &kp LC(T)                      &kp LC(Y)      &kp LA(LEFT)  &kp F3             &kp LA(RIGHT)  &kp MINUS
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &kp HOME    &trans  &kp LC(H)      &mkp MB1      &mkp MB2           &kp F9         &kp EQUAL
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp END     &trans  &kp LC(N)      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &trans         &kp LC(SLASH)
-&trans     &trans     &trans     &trans     &trans     &trans      &trans  &kp LG(SPACE)                                                  &to 1
+&kp LC(Q)  &kp LC(W)  &kp LG(E)  &kp LC(R)  &kp LC(T)                         &kp LC(Y)      &kp LA(LEFT)  &kp F3             &kp LA(RIGHT)  &kp MINUS
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &kp HOME    &trans     &kp LC(H)      &mkp MB1      &mkp MB4           &mkp MB2       &kp EQUAL
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp END     &kp GRAVE  &kp LC(N)      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &trans         &kp LC(SLASH)
+&trans     &trans     &trans     &trans     &trans     &trans      &trans     &kp LG(SPACE)                                                  &to 7
             >;
         };
 
@@ -118,7 +109,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &mkp MB4  &mkp MB2  &mkp MB5
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                &trans
             >;
@@ -130,6 +121,15 @@
 &trans  &trans  &trans   &trans  &trans  &trans    &trans  &kp HOME  &trans  &trans  &trans  &trans
 &trans  &trans  &trans   &trans  &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans
 &trans  &trans  &trans   &trans  &trans  &trans    &trans  &trans                            &trans
+            >;
+        };
+
+        Onishi_ver1 {
+            bindings = <
+&kp Q   &kp L   &kp U   &kp COMMA  &kp DOT                                &kp F   &kp W  &kp R  &kp Y  &kp P
+&kp E   &kp I   &kp A   &kp O      &kp MINUS  &kp LS(LG(S))    &kp EQUAL  &kp K   &kp T  &kp N  &kp S  &kp H
+&kp Z   &kp X   &kp C   &kp V      &kp SEMI   &kp BSLH         &kp FSLH   &kp G   &kp D  &kp M  &kp J  &kp B
+&trans  &trans  &trans  &trans     &trans     &trans           &trans     &trans                       &to 0
             >;
         };
 
