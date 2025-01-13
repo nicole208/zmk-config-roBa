@@ -4,9 +4,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define MOUSE 4
-#define SCROLL 5
-#define NUM 6
+#define MOUSE 7
+#define SCROLL 8
+#define NUM 9
 
 &mt {
     flavor = "balanced";
@@ -109,9 +109,9 @@
 
         Mac_GUI {
             bindings = <
-&kp LC(Q)  &kp LC(W)  &kp LG(E)  &kp LC(R)  &kp LC(T)                         &kp LC(Y)      &kp LA(LEFT)  &mkp MB5           &kp LA(RIGHT)  &kp MINUS
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &kp HOME    &trans     &kp LC(H)      &mkp MB1      &mkp MB4           &mkp MB2       &kp EQUAL
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp END     &kp GRAVE  &kp LC(N)      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &trans         &kp LC(SLASH)
+&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                         &kp LG(Y)      &kp LA(LEFT)  &mkp MB5           &kp LA(RIGHT)  &kp MINUS
+&kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &kp HOME    &trans     &kp LG(H)      &mkp MB1      &mkp MB4           &mkp MB2       &kp EQUAL
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp END     &kp GRAVE  &kp LG(N)      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &kp COMMA      &kp LG(SLASH)
 &trans     &trans     &trans     &trans     &trans     &trans      &trans     &kp LG(SPACE)                                                  &to 1
             >;
         };
