@@ -89,10 +89,10 @@
 
         Mac {
             bindings = <
-&kp Q             &kp W         &kp E             &kp R             &kp T                                             &kp Y        &kp U  &lt 8 I    &kp O    &kp P
-&kp A             &kp S         &kp D             &kp F             &kp G        &kp LS(LG(S))         &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &lt 9 TAB             &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 4 LANG_HANJA  &lt 5 SPACE  &lt 6 LANG_HANGEUL    &kp BACKSPACE  &lt 5 ENTER                             &to 0
+&kp Q             &kp W         &kp E             &kp R             &kp T                                               &kp Y        &kp U  &lt 8 I    &kp O    &kp P
+&kp A             &kp S         &kp D             &kp F             &kp G        &kp LS(LG(NUMBER_4))    &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C             &kp V             &kp B        &lt 9 TAB               &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 4 LANG_HANJA  &lt 5 SPACE  &lt 6 LANG_HANGEUL      &kp BACKSPACE  &lt 5 ENTER                             &to 0
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -139,7 +139,7 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &mkp MB1  &trans  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &to 7   &trans  &mkp MB1  &trans  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                              &trans
             >;
