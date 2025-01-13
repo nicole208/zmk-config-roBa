@@ -21,9 +21,9 @@
 # shield: ["roBa_R","roBa_L","settings_reset"]
 include:
   - board: seeeduino_xiao_ble
-    shield: Test_R
+    shield: roBa_R
     snippet: studio-rpc-usb-uart
   - board: seeeduino_xiao_ble
-    shield: Test_L
+    shield: roBa_L
   - board: seeeduino_xiao_ble
     shield: settings_reset
