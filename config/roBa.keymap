@@ -75,10 +75,10 @@
 
         Onishi_ver1 {
             bindings = <
-&kp Q             &kp L   &kp U   &kp COMMA  &kp DOT                                   &kp F   &kp W  &kp R  &kp Y  &kp P
-&kp E             &kp I   &kp A   &kp O      &kp MINUS     &kp LS(LG(S))    &kp EQUAL  &kp K   &kp T  &kp N  &kp S  &kp H
-&mt LEFT_SHIFT Z  &kp X   &kp C   &kp V      &kp SEMI      &kp BSLH         &kp FSLH   &kp G   &kp D  &kp M  &kp J  &mt RIGHT_SHIFT B
-&trans            &trans  &trans  &kp LCTRL  &kp LEFT_GUI  &lt 6 LANG1      &trans     &trans                       &to 0
+&kp Q             &kp L   &kp U   &kp COMMA  &kp DOT                                &kp F   &kp W  &kp R  &kp Y  &kp P
+&kp E             &kp I   &kp A   &kp O      &kp MINUS  &kp LS(LG(S))    &kp EQUAL  &kp K   &kp T  &kp N  &kp S  &kp H
+&mt LEFT_SHIFT Z  &kp X   &kp C   &kp V      &kp SEMI   &kp BSLH         &kp FSLH   &kp G   &kp D  &kp M  &kp J  &mt RIGHT_SHIFT B
+&trans            &trans  &trans  &kp LCTRL  &kp SPACE  &lt 6 LANG1      &trans     &trans                       &to 0
             >;
         };
 
