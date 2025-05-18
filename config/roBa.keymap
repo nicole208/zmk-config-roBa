@@ -75,10 +75,10 @@
 
         Onishi_ver1 {
             bindings = <
-&kp Q             &kp L   &kp U   &kp COMMA  &kp DOT                                &kp F   &kp W  &lt 8 R  &kp Y  &kp P
-&kp E             &kp I   &kp A   &kp O      &kp MINUS  &kp LS(LG(S))    &kp EQUAL  &kp K   &kp T  &kp N    &kp S  &kp H
-&mt LEFT_SHIFT Z  &kp X   &kp C   &kp V      &kp SEMI   &kp BSLH         &kp FSLH   &kp G   &kp D  &kp M    &kp J  &mt RIGHT_SHIFT B
-&trans            &trans  &trans  &trans     &trans     &trans           &trans     &trans                         &to 0
+&kp Q             &kp L   &kp U   &kp COMMA  &kp DOT                                       &kp F   &kp W  &lt 8 R  &kp Y  &kp P
+&kp E             &kp I   &kp A   &kp O      &kp MINUS  &kp LS(LG(S))    &kp SINGLE_QUOTE  &kp K   &kp T  &kp N    &kp S  &kp H
+&mt LEFT_SHIFT Z  &kp X   &kp C   &kp V      &kp SEMI   &trans           &kp FSLH          &kp G   &kp D  &kp M    &kp J  &mt RIGHT_SHIFT B
+&trans            &trans  &trans  &trans     &trans     &trans           &trans            &trans                         &to 0
             >;
         };
 
@@ -104,10 +104,10 @@
 
         Mac_GUI {
             bindings = <
-&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                         &kp LG(Y)      &kp LA(LEFT)  &mkp MB5           &kp LA(RIGHT)  &kp MINUS
-&kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &kp HOME    &trans     &kp LG(H)      &mkp MB1      &mkp MB4           &mkp MB2       &kp EQUAL
-&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &kp END     &kp GRAVE  &kp LG(N)      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &kp COMMA      &kp LG(SLASH)
-&trans     &trans     &trans     &trans     &trans     &trans      &trans     &kp LG(SPACE)                                                  &to 1
+&kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                                        &kp LG(Y)      &kp LA(LEFT)  &mkp MB5           &kp LA(RIGHT)  &kp MINUS
+&kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)  &kp LS(LG(KP_NUMBER_4))    &trans     &kp LG(H)      &mkp MB1      &mkp MB4           &mkp MB2       &kp EQUAL
+&kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &lt 9 TAB                  &kp GRAVE  &kp LG(N)      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &kp COMMA      &kp LG(SLASH)
+&trans     &trans     &trans     &trans     &trans     &trans                     &trans     &kp LG(SPACE)                                                  &to 1
             >;
         };
 
@@ -122,10 +122,10 @@
 
         ARROW {
             bindings = <
-&kp N1          &kp NUMBER_2            &kp NUMBER_3  &kp NUMBER_4  &kp N5                    &kp NUMBER_6  &kp N7        &kp N8         &kp N9  &kp N0
-&kp F1          &kp F2                  &kp F3        &kp F4        &kp F5  &trans    &trans  &kp F6        &kp F7        &kp F8         &kp F9  &kp F10
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &none         &none         &trans  &trans    &trans  &trans        &kp LG(LEFT)  &kp LG(RIGHT)  &trans  &none
-&trans          &trans                  &trans        &trans        &trans  &trans    &trans  &trans                                             &to 2
+&kp N1          &kp NUMBER_2            &kp NUMBER_3  &kp NUMBER_4  &kp N5                     &kp NUMBER_6  &kp N7        &kp N8         &kp N9  &kp N0
+&kp F1          &kp F2                  &kp F3        &kp F4        &kp F5   &trans    &trans  &kp F6        &kp F7        &kp F8         &kp F9  &kp F10
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &none         &none         &kp F11  &trans    &trans  &kp F12       &kp LG(LEFT)  &kp LG(RIGHT)  &trans  &none
+&trans          &trans                  &trans        &trans        &trans   &trans    &trans  &trans                                             &to 2
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
